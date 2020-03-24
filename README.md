@@ -14,4 +14,4 @@ These results demonstrate the high efficacy of the techniques being implemented 
 
 In out model, the first hidden layer of neural net can be thought of learning word-embeddings for the words appearing in the corpus. We can therefore apply TSNE to visualize how the corresponding 2d vectors obtained from the word-embeddings cluster together. These are shown in the following graph:
 
-![clustering of words](graph_images/bokeh_plot_sentiment_network.png)
+![clustering of words](graph_imgs/bokeh_plot_sentiment_network.png)
