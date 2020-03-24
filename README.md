@@ -15,3 +15,11 @@ These results demonstrate the high efficacy of the techniques being implemented 
 In out model, the first hidden layer of neural net can be thought of learning word-embeddings for the words appearing in the corpus. We can therefore apply TSNE to visualize how the corresponding 2d vectors obtained from the word-embeddings cluster together. These are shown in the following graph:
 
 ![clustering of words](graph_imgs/bokeh_plot_sentiment_network.png)
+
+Here the green colored points represent words associated with positive sentiments while the black colored words represent words associated with negative sentiments. We can see that the network has learnt how to group the words into 4 distinct clusters. 
+
+The following a small section of the green cluster on the left:
+
+![words in the left green cluster](graph_imgs/bokeh_plot_positive.png)
+
+Notice that some of the words in this cluster are: 'stunning', 'delightful', 'appreciated', 'compelling', 'remarkable' etc clearly indicating that the network has learnt that these words have similar connotation. 
