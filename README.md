@@ -23,3 +23,14 @@ The following a small section of the green cluster on the left:
 ![words in the left green cluster](graph_imgs/bokeh_plot_positive.png)
 
 Notice that some of the words in this cluster are: 'stunning', 'delightful', 'appreciated', 'compelling', 'remarkable' etc clearly indicating that the network has learnt that these words have similar connotation. 
+
+Similarly, let's look at some of the words appearing in the right-black cluster:
+
+![words in the right black cluster](graph_imgs/bokeh_plot_negative.png)
+
+The words in this cluster are: 'prententious', 'incoherent', 'ludicrous', 'dreadful', 'lousy' ... etc. Once again, we see that the network has learnt that these words belong to the category. 
+
+We can similarly look at the words appearing in the green and black clusters in the center of the above graph. These are:
+
+![words in the center green cluster](graph_imgs/bokeh_plot_positive_center.png)
+![words in the center black cluster](graph_imgs/boken_plot_negative_center.png)
