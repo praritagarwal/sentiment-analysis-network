@@ -33,4 +33,4 @@ The words in this cluster are: 'prententious', 'incoherent', 'ludicrous', 'dread
 We can similarly look at the words appearing in the green and black clusters in the center of the above graph. These are:
 
 ![words in the center green cluster](graph_imgs/bokeh_plot_pos_center.png)
-![words in the center black cluster](graph_imgs/boken_plot_neg_center.png)
+![words in the center black cluster](graph_imgs/bokeh_plot_neg_center.png)
